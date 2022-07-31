@@ -1,20 +1,26 @@
 $primary: #101727;
-$dark : #101727;
-$light : #ffff;
-$gray : rgb(203, 203, 203);
+$dark: #101727;
+$light: #ffff;
+$gray: rgb(203, 203, 203);
 
 body {
-    font-family: "Poppins" !important;
-
+  font-family: "Poppins" !important;
 }
 
 .container {
-    margin: 20px auto;
-    border: 1px solid $gray;
-    border-radius: 20px;
-    padding: 0 !important;
+  margin: 20px auto;
+  border: 1px solid $gray;
+  border-radius: 20px;
+  padding: 0 !important;
 }
 
+.pe-auto {
+  cursor: pointer;
+}
+
+.btn-check:checked + .btn-primary {
+  background: #474b72 !important;
+}
 
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";

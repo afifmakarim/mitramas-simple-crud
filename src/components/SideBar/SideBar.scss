@@ -1,24 +1,25 @@
 .sidebar-wrapper {
-    width: 20% !important;
-    min-height: 100vh !important;
+  width: 25% !important;
+  padding: 1rem;
+  min-height: 100vh !important;
 }
 
 .hamburger {
-    display: none !important;
+  display: none !important;
 }
 
 @media only screen and (max-width: 1200px) {
-    .sidebar-item {
-        display: none !important;
-    }
+  .sidebar-item {
+    display: none !important;
+  }
 
-    .hamburger {
-        margin-top: 2rem;
-        display: flex !important;
-        cursor: pointer;
-    }
+  .hamburger {
+    margin-top: 2rem;
+    display: flex !important;
+    cursor: pointer;
+  }
 
-    .logo {
-        display: none !important;
-    }
+  .logo {
+    display: none !important;
+  }
 }

@@ -1,3 +1,15 @@
 .display-pictures {
-    width: 100px;
+  width: 100px;
+}
+
+.btn-flat {
+  background: white;
+}
+
+.btn-flat:hover {
+  background: lightgray;
+}
+
+.btn-flat:focus {
+  box-shadow: none;
 }

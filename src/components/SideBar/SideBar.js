@@ -11,10 +11,10 @@ export default function SideBar() {
   const handleOffcanvas = () => setShow(!show);
 
   return (
-    <div className="sidebar-wrapper d-flex flex-column border vh-100">
+    <div className="sidebar-wrapper d-flex flex-column border">
       <div className="logo p-4 d-flex justify-content-center">
         <Link to={"/"} className="fw-bold fs-1 text-decoration-none">
-          PROPARY
+          TESTING
         </Link>
       </div>
       <span
